@@ -4,5 +4,5 @@ PROJECT_PKG_CONFIG_INCLUDE_DIRS = "".split(';') if "" != "" else []
 PROJECT_CATKIN_DEPENDS = "".replace(';', ' ')
 PKG_CONFIG_LIBRARIES_WITH_PREFIX = "".split(';') if "" != "" else []
 PROJECT_NAME = "m2wr_description"
-PROJECT_SPACE_DIR = "/home/vm-gs007/two_wheel_robo/simulation_ws/devel"
+PROJECT_SPACE_DIR = "/home/gurkiratsingh/gurkirat_ubuntu/maze-solving-robo/simulation_ws/devel"
 PROJECT_VERSION = "0.0.0"

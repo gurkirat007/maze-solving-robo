@@ -1,4 +1,4 @@
-prefix=/home/vm-gs007/two_wheel_robo/catkin_ws/devel
+prefix=/home/gurkiratsingh/gurkirat_ubuntu/maze-solving-robo/catkin_ws/devel
 
 Name: motion_plan
 Description: Description of motion_plan

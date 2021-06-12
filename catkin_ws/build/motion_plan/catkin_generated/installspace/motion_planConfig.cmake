@@ -67,14 +67,14 @@ set(motion_plan_CONFIG_INCLUDED TRUE)
 
 # set variables for source/devel/install prefixes
 if("FALSE" STREQUAL "TRUE")
-  set(motion_plan_SOURCE_PREFIX /home/vm-gs007/two_wheel_robo/catkin_ws/src/motion_plan)
-  set(motion_plan_DEVEL_PREFIX /home/vm-gs007/two_wheel_robo/catkin_ws/devel)
+  set(motion_plan_SOURCE_PREFIX /home/gurkiratsingh/gurkirat_ubuntu/maze-solving-robo/catkin_ws/src/motion_plan)
+  set(motion_plan_DEVEL_PREFIX /home/gurkiratsingh/gurkirat_ubuntu/maze-solving-robo/catkin_ws/devel)
   set(motion_plan_INSTALL_PREFIX "")
   set(motion_plan_PREFIX ${motion_plan_DEVEL_PREFIX})
 else()
   set(motion_plan_SOURCE_PREFIX "")
   set(motion_plan_DEVEL_PREFIX "")
-  set(motion_plan_INSTALL_PREFIX /home/vm-gs007/two_wheel_robo/catkin_ws/install)
+  set(motion_plan_INSTALL_PREFIX /home/gurkiratsingh/gurkirat_ubuntu/maze-solving-robo/catkin_ws/install)
   set(motion_plan_PREFIX ${motion_plan_INSTALL_PREFIX})
 endif()
 
@@ -154,7 +154,7 @@ foreach(library ${libraries})
     set(lib_path "")
     set(lib "${library}-NOTFOUND")
     # since the path where the library is found is returned we have to iterate over the paths manually
-    foreach(path /home/vm-gs007/two_wheel_robo/catkin_ws/install/lib;/opt/ros/melodic/lib)
+    foreach(path /home/gurkiratsingh/gurkirat_ubuntu/maze-solving-robo/catkin_ws/install/lib;/opt/ros/melodic/lib)
       find_library(lib ${library}
         PATHS ${path}
         NO_DEFAULT_PATH NO_CMAKE_FIND_ROOT_PATH)

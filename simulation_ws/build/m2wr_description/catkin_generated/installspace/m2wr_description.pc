@@ -1,4 +1,4 @@
-prefix=/home/vm-gs007/two_wheel_robo/simulation_ws/install
+prefix=/home/gurkiratsingh/gurkirat_ubuntu/maze-solving-robo/simulation_ws/install
 
 Name: m2wr_description
 Description: Description of m2wr_description

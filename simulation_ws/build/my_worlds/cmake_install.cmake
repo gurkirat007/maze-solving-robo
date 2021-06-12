@@ -1,8 +1,8 @@
-# Install script for directory: /home/vm-gs007/two_wheel_robo/simulation_ws/src/my_worlds
+# Install script for directory: /home/gurkiratsingh/gurkirat_ubuntu/maze-solving-robo/simulation_ws/src/my_worlds
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/home/vm-gs007/two_wheel_robo/simulation_ws/install")
+  set(CMAKE_INSTALL_PREFIX "/home/gurkiratsingh/gurkirat_ubuntu/maze-solving-robo/simulation_ws/install")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -38,17 +38,17 @@ if(NOT DEFINED CMAKE_CROSSCOMPILING)
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/vm-gs007/two_wheel_robo/simulation_ws/build/my_worlds/catkin_generated/installspace/my_worlds.pc")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/gurkiratsingh/gurkirat_ubuntu/maze-solving-robo/simulation_ws/build/my_worlds/catkin_generated/installspace/my_worlds.pc")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/my_worlds/cmake" TYPE FILE FILES
-    "/home/vm-gs007/two_wheel_robo/simulation_ws/build/my_worlds/catkin_generated/installspace/my_worldsConfig.cmake"
-    "/home/vm-gs007/two_wheel_robo/simulation_ws/build/my_worlds/catkin_generated/installspace/my_worldsConfig-version.cmake"
+    "/home/gurkiratsingh/gurkirat_ubuntu/maze-solving-robo/simulation_ws/build/my_worlds/catkin_generated/installspace/my_worldsConfig.cmake"
+    "/home/gurkiratsingh/gurkirat_ubuntu/maze-solving-robo/simulation_ws/build/my_worlds/catkin_generated/installspace/my_worldsConfig-version.cmake"
     )
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/my_worlds" TYPE FILE FILES "/home/vm-gs007/two_wheel_robo/simulation_ws/src/my_worlds/package.xml")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/my_worlds" TYPE FILE FILES "/home/gurkiratsingh/gurkirat_ubuntu/maze-solving-robo/simulation_ws/src/my_worlds/package.xml")
 endif()
 

@@ -93,13 +93,13 @@ def take_action():
 
 def find_wall():
     msg = Twist()
-    msg.linear.x = 0.2
-    msg.angular.z = -0.3
+    msg.linear.x = 0.5
+    msg.angular.z = -1.3
     return msg
 
 def turn_left():
     msg = Twist()
-    msg.angular.z = 0.3
+    msg.angular.z = 0.8
     return msg
 
 def follow_the_wall():

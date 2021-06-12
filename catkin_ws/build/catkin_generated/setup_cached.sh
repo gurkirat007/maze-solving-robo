@@ -7,9 +7,7 @@
 # new environment variables
 
 # modified environment variables
-export CMAKE_PREFIX_PATH="/home/vm-gs007/two_wheel_robo/catkin_ws/devel:$CMAKE_PREFIX_PATH"
-export LD_LIBRARY_PATH="/home/vm-gs007/two_wheel_robo/catkin_ws/devel/lib:$LD_LIBRARY_PATH"
-export PKG_CONFIG_PATH="/home/vm-gs007/two_wheel_robo/catkin_ws/devel/lib/pkgconfig:$PKG_CONFIG_PATH"
-export PWD='/home/vm-gs007/two_wheel_robo/catkin_ws/build'
-export ROSLISP_PACKAGE_DIRECTORIES='/home/vm-gs007/two_wheel_robo/catkin_ws/devel/share/common-lisp'
-export ROS_PACKAGE_PATH="/home/vm-gs007/two_wheel_robo/catkin_ws/src:$ROS_PACKAGE_PATH"
+export CMAKE_PREFIX_PATH="/home/gurkiratsingh/gurkirat_ubuntu/maze-solving-robo/catkin_ws/devel:$CMAKE_PREFIX_PATH"
+export PWD='/home/gurkiratsingh/gurkirat_ubuntu/maze-solving-robo/catkin_ws/build'
+export ROSLISP_PACKAGE_DIRECTORIES='/home/gurkiratsingh/gurkirat_ubuntu/maze-solving-robo/catkin_ws/devel/share/common-lisp'
+export ROS_PACKAGE_PATH="/home/gurkiratsingh/gurkirat_ubuntu/maze-solving-robo/catkin_ws/src:$ROS_PACKAGE_PATH"

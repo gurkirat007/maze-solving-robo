@@ -1,8 +1,8 @@
-# Install script for directory: /home/vm-gs007/two_wheel_robo/catkin_ws/src/motion_plan
+# Install script for directory: /home/gurkiratsingh/gurkirat_ubuntu/maze-solving-robo/catkin_ws/src/motion_plan
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/home/vm-gs007/two_wheel_robo/catkin_ws/install")
+  set(CMAKE_INSTALL_PREFIX "/home/gurkiratsingh/gurkirat_ubuntu/maze-solving-robo/catkin_ws/install")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -38,17 +38,17 @@ if(NOT DEFINED CMAKE_CROSSCOMPILING)
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/vm-gs007/two_wheel_robo/catkin_ws/build/motion_plan/catkin_generated/installspace/motion_plan.pc")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/gurkiratsingh/gurkirat_ubuntu/maze-solving-robo/catkin_ws/build/motion_plan/catkin_generated/installspace/motion_plan.pc")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/motion_plan/cmake" TYPE FILE FILES
-    "/home/vm-gs007/two_wheel_robo/catkin_ws/build/motion_plan/catkin_generated/installspace/motion_planConfig.cmake"
-    "/home/vm-gs007/two_wheel_robo/catkin_ws/build/motion_plan/catkin_generated/installspace/motion_planConfig-version.cmake"
+    "/home/gurkiratsingh/gurkirat_ubuntu/maze-solving-robo/catkin_ws/build/motion_plan/catkin_generated/installspace/motion_planConfig.cmake"
+    "/home/gurkiratsingh/gurkirat_ubuntu/maze-solving-robo/catkin_ws/build/motion_plan/catkin_generated/installspace/motion_planConfig-version.cmake"
     )
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/motion_plan" TYPE FILE FILES "/home/vm-gs007/two_wheel_robo/catkin_ws/src/motion_plan/package.xml")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/motion_plan" TYPE FILE FILES "/home/gurkiratsingh/gurkirat_ubuntu/maze-solving-robo/catkin_ws/src/motion_plan/package.xml")
 endif()
 

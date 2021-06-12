@@ -31,27 +31,27 @@ def take_action(regions):
     elif regions['front'] < 1 and regions['fleft'] > 1 and regions['fright'] > 1:
         state_description = 'case 2 - front'
         linear_x = 0
-        angular_z = 0.3
+        angular_z = -0.3
     elif regions['front'] > 1 and regions['fleft'] > 1 and regions['fright'] < 1:
         state_description = 'case 3 - fright'
         linear_x = 0
-        angular_z = -0.3
+        angular_z = 0.3
     elif regions['front'] > 1 and regions['fleft'] < 1 and regions['fright'] > 1:
         state_description = 'case 4 - fleft'
         linear_x = 0
-        angular_z = 0.3
+        angular_z = -0.3
     elif regions['front'] < 1 and regions['fleft'] > 1 and regions['fright'] < 1:
         state_description = 'case 5 - front and fright'
         linear_x = 0
-        angular_z = -0.3
+        angular_z = 0.3
     elif regions['front'] < 1 and regions['fleft'] < 1 and regions['fright'] > 1:
         state_description = 'case 6 - front and fleft'
         linear_x = 0
-        angular_z = 0.3
+        angular_z = -0.3
     elif regions['front'] < 1 and regions['fleft'] < 1 and regions['fright'] < 1:
         state_description = 'case 7 - front and fleft and fright'
         linear_x = 0
-        angular_z = -0.3
+        angular_z = 0.3
     elif regions['front'] > 1 and regions['fleft'] < 1 and regions['fright'] < 1:
         state_description = 'case 8 - fleft and fright'
         linear_x = 0.6
