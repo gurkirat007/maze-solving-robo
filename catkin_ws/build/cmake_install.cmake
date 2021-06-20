@@ -132,6 +132,7 @@ if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
   include("/home/gurkiratsingh/gurkirat_ubuntu/maze-solving-robo/catkin_ws/build/gtest/cmake_install.cmake")
   include("/home/gurkiratsingh/gurkirat_ubuntu/maze-solving-robo/catkin_ws/build/motion_plan/cmake_install.cmake")
+  include("/home/gurkiratsingh/gurkirat_ubuntu/maze-solving-robo/catkin_ws/build/robotcraft-pathfinding/cmake_install.cmake")
 
 endif()
 

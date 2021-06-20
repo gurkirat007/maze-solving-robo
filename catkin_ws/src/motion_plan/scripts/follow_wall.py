@@ -61,7 +61,7 @@ def take_action():
     
     state_description = ''
     
-    d = 1.5
+    d = 0.3
     
     if regions['front'] > d and regions['fleft'] > d and regions['fright'] > d:
         state_description = 'case 1 - nothing'
@@ -93,20 +93,20 @@ def take_action():
 
 def find_wall():
     msg = Twist()
-    msg.linear.x = 0.5
-    msg.angular.z = -1.3
+    msg.linear.x = 2
+    msg.angular.z = -1.5
     return msg
 
 def turn_left():
     msg = Twist()
-    msg.angular.z = 0.8
+    msg.angular.z = 1.5
     return msg
 
 def follow_the_wall():
     global regions_
     
     msg = Twist()
-    msg.linear.x = 0.5
+    msg.linear.x = 2
     return msg
 
 def main():

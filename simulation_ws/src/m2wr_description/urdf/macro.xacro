@@ -5,18 +5,18 @@
         <inertial>
           <mass value="0.2"/>
           <origin rpy="0 1.5707 1.5707" xyz="0 0 0"/>
-          <xacro:cylinder_inertia mass="0.2" r="0.035" l="0.02" />
+          <xacro:cylinder_inertia mass="0.2" r="0.02" l="0.02" />
         </inertial>
         <collision name="link_right_wheel_collision">
           <origin rpy="0 1.5707 1.5707" xyz="0 0 0"/>
           <geometry>
-            <cylinder length="0.02" radius="0.035"/>
+            <cylinder length="0.02" radius="0.02"/>
           </geometry>
         </collision>
         <visual name="${name}_visual">
           <origin rpy="0 1.5707 1.5707" xyz="0 0 0"/>
           <geometry>  
-            <cylinder length="0.02" radius="0.035"/>
+            <cylinder length="0.02" radius="0.02"/>
           </geometry>
         </visual>
       </link>
